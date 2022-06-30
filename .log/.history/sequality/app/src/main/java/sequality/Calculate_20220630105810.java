@@ -6,8 +6,7 @@ public class Calculate {
   }
 
   public double ave(int sum, int cnt) {
-    double total = sum;
-    return total / cnt;
+    return sum / cnt;
   }
 
   public int total(int x, int y) {
@@ -50,4 +49,16 @@ public class Calculate {
     return cnt;
   }
 
+  public static void main(String[] args) {
+    int a = 2;
+    int b = 3;
+    int x = 1;
+    int y = 10;
+    Calculate calc = new Calculate();
+    System.out.println("Sum of " + a + " and " + b + " is " + calc.sum(a, b) + ".Average is "
+        + calc.ave(calc.sum(a, b), calc.count(a, b)) + ".");
+    System.out.println("Sum of " + x + " to " + y + " is " + calc.total(x, y) + ".Average is "
+        + calc.ave(calc.total(x, y), calc.count(x, y)) + ".");
+    
+  }
 }

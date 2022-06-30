@@ -5,9 +5,8 @@ public class Calculate {
     return x + y;
   }
 
-  public double ave(int sum, int cnt) {
-    double total = sum;
-    return total / cnt;
+  public double ave(int x, int y) {
+    return x / y;
   }
 
   public int total(int x, int y) {
@@ -42,12 +41,7 @@ public class Calculate {
     return sum;
   }
 
-  public int count(int x, int y) {
-    int cnt = 0;
-    for (int i = x; i <= y; i++) {
-      cnt++;
-    }
-    return cnt;
-  }
+  public void calc(int a, int b, int x, int y) {
 
+  }
 }

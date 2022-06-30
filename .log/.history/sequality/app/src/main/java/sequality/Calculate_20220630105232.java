@@ -6,8 +6,7 @@ public class Calculate {
   }
 
   public double ave(int sum, int cnt) {
-    double total = sum;
-    return total / cnt;
+    return sum / cnt;
   }
 
   public int total(int x, int y) {
@@ -50,4 +49,8 @@ public class Calculate {
     return cnt;
   }
 
+  public static void main(String[] args) {
+    Calculate calc = new Calculate();
+    if ()
+  }
 }

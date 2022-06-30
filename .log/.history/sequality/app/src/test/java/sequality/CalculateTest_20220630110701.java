@@ -25,25 +25,4 @@ public class CalculateTest {
     int expected = 55;
     assertEquals(expected, calc.total(1, 10));
   }
-
-  @Test
-  public void testOdd() {
-    Calculate calc = new Calculate();
-    int expected = 25;
-    assertEquals(expected, calc.odd(1, 10));
-  }
-
-  @Test
-  public void testEven() {
-    Calculate calc = new Calculate();
-    int expected = 30;
-    assertEquals(expected, calc.even(1, 10));
-  }
-
-  @Test
-  public void testCount() {
-    Calculate calc = new Calculate();
-    int expected = 10;
-    assertEquals(expected, calc.count(1, 10));
-  }
 }
